@@ -1,7 +1,7 @@
 /*
   Vanilla Javascript Marquee
 
-	Version: 0.2.2
+	Version: 1.0.1
   Author: Robert Bossaert <https://github.com/robertbossaert>
   Author: Kamil Mendelski <kamil@frontlabs.pl>
 
