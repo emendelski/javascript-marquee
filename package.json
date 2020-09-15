@@ -1,5 +1,5 @@
 {
-  "name": "javascript-marquee",
+  "name": "@emendelski/javascript-marquee",
   "version": "1.0.0",
   "description": "Vanilla JS Marquee",
   "main": "marquee.js",
