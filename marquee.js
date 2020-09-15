@@ -1,7 +1,10 @@
 /*
-	Vanilla Javascript Marquee
-	Version: 0.2.1
-	Author: Robert Bossaert <https://github.com/robertbossaert>
+  Vanilla Javascript Marquee
+
+	Version: 0.2.2
+  Author: Robert Bossaert <https://github.com/robertbossaert>
+  Author: Kamil Mendelski <kamil@frontlabs.pl>
+
 	Example call:
 
 	new Marquee('element');
@@ -10,6 +13,7 @@
 		direction: 'rtl',
 	});
 */
+
 var Marquee = function (element, defaults) {
   var elem = document.getElementById(element),
     options = (defaults === undefined) ? {} : defaults,
@@ -98,3 +102,5 @@ var Marquee = function (element, defaults) {
   // Init plugin
   marqueeElem = constructor(elem);
 }
+
+export default Marquee;
